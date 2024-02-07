@@ -1,0 +1,15 @@
+#container{
+    display: flex;
+    flex-direction: row-reverse;
+    
+    fa-icon{
+        color: gray;
+        cursor: pointer;
+    
+        &.rated,
+        &:hover ~ fa-icon,
+        &:hover{
+            color: gold
+        }
+    }
+}
